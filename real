@@ -5,6 +5,8 @@ mnist.keys()
 X, y = mnist["data"], mnist["target"]
 print(X.shape)
 print(y.shape)
+print(X)
+print(y)
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt

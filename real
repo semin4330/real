@@ -16,9 +16,9 @@ some_digit_image = some_digit.reshape(20, 20)
 plt.imshow(some_digit_image, cmap=mpl.cm.binary)
 plt.show()
 import numpy as np
-print(y[0:10])
+print(y[0:18])
 y = y.astype(np.uint8)
-print(y[0:10])
+print(y[0:18])
 
 X_train, X_test, y_train, y_test = X[:60000], X[60000:], y[:60000], y[60000:]
 y_train_5 = (y_train == 5)

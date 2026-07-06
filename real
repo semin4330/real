@@ -4,8 +4,6 @@ mnist.keys()
 print(mnist)
 
 X, y = mnist["data"], mnist["target"]
-print(X.shape)
-print(y.shape)
 print(X)
 print(y)
 
